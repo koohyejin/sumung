@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        /하이린
+
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/zzazng"
+            />
+
+
+        <TextView
+            android:id="@+id/gage7"
+            android:layout_toRightOf="@id/image7"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:text="하이린"
+            />
+
+        <TextView
+            android:id="@+id/menu7"
+            android:layout_toRightOf="@id/image7"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage7"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n짜장면=6,000원\n삼선짬뽕=11,000원\n볶음밥=8,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price7"
+            android:layout_toRightOf="@id/image7"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu7"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 8분(정문쪽)"
+            />
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image7"
+            />
+
+
+        //라화마라탕
+        <ImageView
+            android:id="@+id/image8"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image7"
+            android:src="@drawable/maratang"
+            />
+
+
+        <TextView
+            android:id="@+id/gage8"
+            android:layout_below="@id/image7"
+            android:layout_toRightOf="@id/image8"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="라화마라탕" />
+
+        <TextView
+            android:id="@+id/menu8"
+            android:layout_toRightOf="@id/image8"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage8"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메누\n마라탕=6000원\n마라샹궈=20,000원\n꿔바로우=6,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price8"
+            android:layout_toRightOf="@id/image8"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu8"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 6분(정문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image8"
+            />
+
+        //앗싸양꼬치
+        <ImageView
+            android:id="@+id/image9"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image8"
+            android:src="@drawable/yangggo"
+            />
+
+
+        <TextView
+            android:id="@+id/gage9"
+            android:layout_below="@id/image8"
+            android:layout_toRightOf="@id/image9"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="앗싸양꼬치" />
+
+        <TextView
+            android:id="@+id/menu9"
+            android:layout_toRightOf="@id/image9"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage9"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n마라탕=10,900원\n양꼬치=11,900원\n양갈비살=13,900원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price9"
+            android:layout_toRightOf="@id/image9"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu9"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 11분(정문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image9"
+            />
+
+
+        //조가연마라탕
+        <ImageView
+            android:id="@+id/image10"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image9"
+            android:src="@drawable/jogamara"
+            />
+
+
+        <TextView
+            android:id="@+id/gage10"
+            android:layout_below="@id/image9"
+            android:layout_toRightOf="@id/image9"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="조가연 마라탕" />
+
+        <TextView
+            android:id="@+id/menu10"
+            android:layout_toRightOf="@id/image10"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage10"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n마라탕=7,000원\n마라샹궈=15,000원\n꿔바로우=15,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price10"
+            android:layout_toRightOf="@id/image10"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu10"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 9분(쪽문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image10"
+            />
+
+        //흥부반점
+
+        <ImageView
+            android:id="@+id/image11"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image10"
+            android:src="@drawable/ban" />
+
+
+        <TextView
+            android:id="@+id/gage11"
+            android:layout_below="@id/image10"
+            android:layout_toRightOf="@id/image10"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="흥부반점" />
+
+        <TextView
+            android:id="@+id/menu11"
+            android:layout_toRightOf="@id/image11"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage11"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n쟁반짜장=15,000원\n짬뽕=7,000원\n볶음밥=7,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price11"
+            android:layout_toRightOf="@id/image11"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu11"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 8분(정문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image11"
+            />
+
+        //참맛있네탕수육
+        <ImageView
+            android:id="@+id/image12"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image11"
+            android:src="@drawable/kimpitang"
+            />
+
+
+        <TextView
+            android:id="@+id/gage12"
+            android:layout_below="@id/image11"
+            android:layout_toRightOf="@id/image11"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="참맛있네탕수육" />
+
+        <TextView
+            android:id="@+id/menu12"
+            android:layout_toRightOf="@id/image12"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage12"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n김피탕=17,000원\n피자탕수육=20,000원\n치킨김치탕수육=17,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price12"
+            android:layout_toRightOf="@id/image12"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu12"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 11분(정문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image12"
+            />
+
+        //안서반점
+        <ImageView
+            android:id="@+id/image13"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image12"
+            android:src="@drawable/tang"
+            />
+
+
+        <TextView
+            android:id="@+id/gage13"
+            android:layout_below="@id/image12"
+            android:layout_toRightOf="@id/image12"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="안서반점" />
+
+        <TextView
+            android:id="@+id/menu13"
+            android:layout_toRightOf="@id/image13"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage13"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n짜장면=6,000원\n매운짜장=7,000원\n짬뽕=7,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price13"
+            android:layout_toRightOf="@id/image13"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu13"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 10분(쪽문쪽)"
+            />
+    </RelativeLayout>
+</ScrollView>

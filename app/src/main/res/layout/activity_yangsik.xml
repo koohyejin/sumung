@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yangsik">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        /피플
+
+        <ImageView
+            android:id="@+id/image14"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/spa"
+            />
+
+
+        <TextView
+            android:id="@+id/gage14"
+            android:layout_toRightOf="@id/image14"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:text="피플"
+            />
+
+        <TextView
+            android:id="@+id/menu14"
+            android:layout_toRightOf="@id/image14"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage14"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n오븐치즈스파게티=6,000원\n오븐치즈새우도리아=6,000원\n오븐치즈치킨도리아=6,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price14"
+            android:layout_toRightOf="@id/image14"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu14"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 7분(정문쪽)"
+            />
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image14"
+            />
+
+
+        //돼지게티
+        <ImageView
+            android:id="@+id/image15"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image14"
+            android:src="@drawable/pig"
+            />
+
+
+        <TextView
+            android:id="@+id/gage15"
+            android:layout_below="@id/image14"
+            android:layout_toRightOf="@id/image15"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="돼지게티" />
+
+        <TextView
+            android:id="@+id/menu15"
+            android:layout_toRightOf="@id/image15"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage15"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n이거슨 매운 국물게티=14,900원\n로제함박파스타=15,900원\n페퍼크림파스타=15,900원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price15"
+            android:layout_toRightOf="@id/image15"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu15"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 7분(정문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image15"
+            />
+
+        //돈까스스쿨
+        <ImageView
+            android:id="@+id/image16"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image15"
+            android:src="@drawable/donga"
+            />
+
+
+        <TextView
+            android:id="@+id/gage16"
+            android:layout_below="@id/image15"
+            android:layout_toRightOf="@id/image16"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="돈까스스쿨" />
+
+        <TextView
+            android:id="@+id/menu16"
+            android:layout_toRightOf="@id/image16"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage16"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n등심돈까스=7,000원\n치즈돈까스=8,000원\n고구마돈까스=8,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price16"
+            android:layout_toRightOf="@id/image16"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu16"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 8분(정문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image16"
+            />
+
+
+        //서브밀
+        <ImageView
+            android:id="@+id/image17"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image16"
+            android:src="@drawable/sub"
+            />
+
+
+        <TextView
+            android:id="@+id/gage17"
+            android:layout_below="@id/image16"
+            android:layout_toRightOf="@id/image16"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="서브밀" />
+
+        <TextView
+            android:id="@+id/menu17"
+            android:layout_toRightOf="@id/image17"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage17"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n치돼약매=4,900원\n치소약매 치즈추가=5,400원\n치매감튀추사=5,400원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price17"
+            android:layout_toRightOf="@id/image17"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu17"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 7분(정문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image17"
+            />
+
+        //피자스쿨
+
+        <ImageView
+            android:id="@+id/image18"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image17"
+            android:src="@drawable/pizzaschool" />
+
+
+        <TextView
+            android:id="@+id/gage18"
+            android:layout_below="@id/image17"
+            android:layout_toRightOf="@id/image17"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="피자스쿨" />
+
+        <TextView
+            android:id="@+id/menu18"
+            android:layout_toRightOf="@id/image18"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage18"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n고구마피자=10,900원\n핫치킨피자=10,900원\n고르곤졸라피자=12,900원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price18"
+            android:layout_toRightOf="@id/image18"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu18"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 11분(쪽문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image18"
+            />
+
+        //로씨
+
+        <ImageView
+            android:id="@+id/image19"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image18"
+            android:src="@drawable/ro" />
+
+
+        <TextView
+            android:id="@+id/gage19"
+            android:layout_below="@id/image18"
+            android:layout_toRightOf="@id/image18"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="로씨" />
+
+        <TextView
+            android:id="@+id/menu19"
+            android:layout_toRightOf="@id/image19"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage19"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n라자냐=23,000원\n프레스카핏자=25,000원\n젤라또=15,500원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price19"
+            android:layout_toRightOf="@id/image19"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu19"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 16분(쪽문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image19"
+            />
+
+        //bhc
+        <ImageView
+            android:id="@+id/image20"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image19"
+            android:src="@drawable/bhc"
+            />
+
+
+        <TextView
+            android:id="@+id/gage20"
+            android:layout_below="@id/image19"
+            android:layout_toRightOf="@id/image19"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="BHC치킨" />
+
+        <TextView
+            android:id="@+id/menu20"
+            android:layout_toRightOf="@id/image20"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage20"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n뿌링클=18,000원\n레드킹=19,000원\n맛초킹=18,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price20"
+            android:layout_toRightOf="@id/image20"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu20"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 9분(정문쪽)"
+            />
+    </RelativeLayout>
+
+</ScrollView>

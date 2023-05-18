@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".matjib">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/한식"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="한식" />
+
+        <Button
+            android:id="@+id/양식"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="양식" />
+
+        <Button
+            android:id="@+id/중식"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="중식" />
+
+        <Button
+            android:id="@+id/고기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고기" />
+
+        <Button
+            android:id="@+id/분식"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="분식" />
+
+    </LinearLayout>
+
+</LinearLayout>

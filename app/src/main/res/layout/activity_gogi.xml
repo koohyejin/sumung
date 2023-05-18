@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gogi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        //원조부안집
+
+        <ImageView
+            android:id="@+id/image28"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/booahn"
+            />
+
+
+        <TextView
+            android:id="@+id/gage28"
+            android:layout_toRightOf="@id/image28"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:text="원조부안집"
+            />
+
+        <TextView
+            android:id="@+id/menu28"
+            android:layout_toRightOf="@id/image28"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage28"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n육즙목살=15,000원\n쫀득살=15,000원\n숙성삼겹=15,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price28"
+            android:layout_toRightOf="@id/image28"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu28"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 9분(정문쪽)"
+            />
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image28"
+            />
+
+
+        //수원화로구이
+        <ImageView
+            android:id="@+id/image29"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image28"
+            android:src="@drawable/hwaro"
+            />
+
+
+        <TextView
+            android:id="@+id/gage29"
+            android:layout_below="@id/image28"
+            android:layout_toRightOf="@id/image29"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="수원화로구이" />
+
+        <TextView
+            android:id="@+id/menu29"
+            android:layout_toRightOf="@id/image29"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage29"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n생삼겹살=13,000원\n돼지갈비=13,000원\n양념목살=7,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price29"
+            android:layout_toRightOf="@id/image29"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu29"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 9분(쪽문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image29"
+            />
+
+        //정가네 닭갈비
+        <ImageView
+            android:id="@+id/image30"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image29"
+            android:src="@drawable/dakgalbi"
+            />
+
+
+        <TextView
+            android:id="@+id/gage30"
+            android:layout_below="@id/image29"
+            android:layout_toRightOf="@id/image30"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="정가네 닭갈비" />
+
+        <TextView
+            android:id="@+id/menu30"
+            android:layout_toRightOf="@id/image30"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage30"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n정가네 닭갈비=9,500원\n치즈닭갈비=10,500원\n쟁반막국수=8,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price30"
+            android:layout_toRightOf="@id/image30"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu30"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 11분(쪽문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image30"
+            />
+
+
+        //이슬목장
+        <ImageView
+            android:id="@+id/image31"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image30"
+            android:src="@drawable/mokjang"
+            />
+
+
+        <TextView
+            android:id="@+id/gage31"
+            android:layout_below="@id/image30"
+            android:layout_toRightOf="@id/image30"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="이슬목장" />
+
+        <TextView
+            android:id="@+id/menu31"
+            android:layout_toRightOf="@id/image31"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage31"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n삼겹살(150g)=4,500원\n냉면=4,500원\n라면=3,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price31"
+            android:layout_toRightOf="@id/image31"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu31"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 10분(쪽문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image31"
+            />
+
+        //안서동야곱집
+
+        <ImageView
+
+            android:id="@+id/image32"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image31"
+            android:src="@drawable/yagob" />
+
+
+        <TextView
+            android:id="@+id/gage32"
+            android:layout_below="@id/image31"
+            android:layout_toRightOf="@id/image32"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="안서동야곱집" />
+
+        <TextView
+            android:id="@+id/menu32"
+            android:layout_toRightOf="@id/image32"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage32"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n막창=13,000원\n야채곱창=10,000원\n알곱창=11,500원\n"
+            />
+
+        <TextView
+            android:id="@+id/price32"
+            android:layout_toRightOf="@id/image32"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu32"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 11분(정문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image32"
+            />
+
+        //별별돼지
+        <ImageView
+            android:id="@+id/image33"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image32"
+            android:src="@drawable/byeolbyeol"
+            />
+
+
+        <TextView
+            android:id="@+id/gage33"
+            android:layout_below="@id/image32"
+            android:layout_toRightOf="@id/image32"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="별별돼지" />
+
+        <TextView
+            android:id="@+id/menu33"
+            android:layout_toRightOf="@id/image33"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage33"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n삼겹살=14,000원\n목살=14,000원\n냉면=6,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price33"
+            android:layout_toRightOf="@id/image33"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu33"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 11분(쪽문쪽)"
+            />
+
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/image33"
+            />
+
+        //손문
+        <ImageView
+            android:id="@+id/image34"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image33"
+            android:src="@drawable/sonmoon"
+            />
+
+
+        <TextView
+            android:id="@+id/gage34"
+            android:layout_below="@id/image33"
+            android:layout_toRightOf="@id/image33"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="손문" />
+
+        <TextView
+            android:id="@+id/menu34"
+            android:layout_toRightOf="@id/image34"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gage34"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="추천메뉴\n삼겹도시락=12,000원\n갈매기살=13,000원\n돼지막창세트=20,000원\n"
+            />
+
+
+        <TextView
+            android:id="@+id/price34"
+            android:layout_toRightOf="@id/image34"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu34"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="한누리관에서 걸어서 11분(쪽문쪽)"
+            />
+    </RelativeLayout>
+
+</ScrollView>

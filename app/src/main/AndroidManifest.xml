@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sumung">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sumung">
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".matzip_list"
+            android:exported="false" />
+        <activity
+            android:name=".matzip_main3"
+            android:exported="false" />
+        <activity
+            android:name=".matzip_main2"
+            android:exported="false" />
+        <activity
+            android:name=".matzip_main"
+            android:exported="false" />
+        <activity
+            android:name=".list"
+            android:exported="false" />
+        <activity
+            android:name=".opene_eye"
+            android:exported="false" />
+        <activity
+            android:name=".soomoongjeongbo"
+            android:exported="false" />
+        <activity
+            android:name=".gogi"
+            android:exported="false" />
+        <activity
+            android:name=".boonsik"
+            android:exported="false" />
+        <activity
+            android:name=".yangsik"
+            android:exported="false" />
+        <activity
+            android:name=".joongsik"
+            android:exported="false" />
+        <activity
+            android:name=".bigyogwa"
+            android:exported="false" />
+        <activity
+            android:name=".hansik"
+            android:exported="false" />
+        <activity
+            android:name=".matjib"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".close_eye"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
